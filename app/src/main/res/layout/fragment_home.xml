@@ -1,0 +1,204 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dutchman.messcostcalc.HomeFragment"
+    android:id="@+id/rlHomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/border_panel"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/linearLayout11"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/tvHomeDate"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="Date" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_below="@+id/linearLayout11"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/linearLayout12"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Total Rent"
+            android:layout_weight="1"
+            android:id="@+id/tvHTRView" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Perhead"
+            android:layout_weight="1"
+            android:id="@+id/tvHPerheadView" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_below="@+id/linearLayout12"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/linearLayout13"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/border_panel"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/tvHRent"
+            android:layout_weight="1"
+            android:hint="Total Rent"
+            android:layout_margin="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/border_panel"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/tvHRentCost"
+            android:layout_weight="1"
+            android:hint="Perhead"
+            android:layout_margin="2dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:id="@+id/linearLayout14"
+        android:layout_below="@+id/linearLayout13"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_weight="1"
+            android:id="@+id/tvHBDate"
+            android:hint="Last Date" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_weight="1"
+            android:id="@+id/tvHBDay"
+            android:hint="Last Day" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:id="@+id/linearLayout15"
+        android:layout_below="@+id/linearLayout14"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/border_panel"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/tvHLName"
+            android:layout_weight="1"
+            android:hint="Last Name"
+            android:layout_margin="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/border_panel"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/tvHLCost"
+            android:layout_weight="1"
+            android:hint="Tk"
+            android:layout_margin="2dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:id="@+id/linearLayout25"
+        android:layout_below="@+id/linearLayout15"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Total Bazar"
+            android:layout_weight="1"
+            android:id="@+id/tvHTBazarView" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Perhead"
+            android:layout_weight="1"
+            android:id="@+id/tvPerheadBView" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:id="@+id/linearLayout26"
+        android:layout_below="@+id/linearLayout25"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/border_panel"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/tvHTotalBazar"
+            android:layout_weight="1"
+            android:hint="Total Bazar"
+            android:layout_margin="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/border_panel"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/tvHBPerhead"
+            android:layout_weight="1"
+            android:hint="Perhead"
+            android:layout_margin="2dp" />
+    </LinearLayout>
+
+</RelativeLayout>
